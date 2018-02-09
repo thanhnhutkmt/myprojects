@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo1</string>
+    <string name="text1">input first number:</string>
+    <string name="text2">input second number:</string>
+    <string name="bt1">Sum</string>
+    <string name="kq">result : </string>
+</resources>

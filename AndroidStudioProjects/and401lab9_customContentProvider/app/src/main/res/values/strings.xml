@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">and401lab9_customContentProvider</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="my_first_database">My First Database</string>
+    <string name="type_student_name">Type student name</string>
+    <string name="type_student_nickname">Type student nick name</string>
+    <string name="add_student">Add new</string>
+</resources>

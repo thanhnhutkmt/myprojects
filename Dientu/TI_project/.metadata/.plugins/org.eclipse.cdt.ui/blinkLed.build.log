@@ -1,0 +1,14 @@
+
+**** Clean-only build of configuration Debug for project blinkLed ****
+
+"D:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "blinkLed.out"  "blinkLed.hex" 
+DEL /F "blink.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+DEL /F "blink.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+Could Not Find D:\project\Dientu\TI_project\blinkLed\Debug\blinkLed.out
+Could Not Find D:\project\Dientu\TI_project\blinkLed\Debug\blink.d
+Could Not Find D:\project\Dientu\TI_project\blinkLed\Debug\blink.obj
+'Finished clean'
+' '
+
+**** Build Finished ****

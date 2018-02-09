@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "878568334997",
+    "firebase_url": "https://model-ruler-136223.firebaseio.com",
+    "project_id": "model-ruler-136223",
+    "storage_bucket": "model-ruler-136223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878568334997:android:0e9f24982ac47c35",
+        "android_client_info": {
+          "package_name": "software.nhut.personalutilitiesforlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878568334997-ib3inaao92o2oh6ap9v1evv7al94fqiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWQyNPFWNHLYos-PFQe2l2Bit5W3A57jE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

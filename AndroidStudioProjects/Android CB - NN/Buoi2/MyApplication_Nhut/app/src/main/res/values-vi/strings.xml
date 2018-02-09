@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ung dung cua toi</string>
+
+    <string name="action_settings">Thiet Dat</string>
+
+    <string name="lentv">Nhap chieu dai</string>
+    <string name="widtv">Nhap chieu rong</string>
+    <string name="Calbtn">Tinh</string>
+    <string name="Atv">Dien tich :</string>
+    <string name="Ltv">;chu vi :</string>
+</resources>

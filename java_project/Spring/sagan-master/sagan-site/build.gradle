@@ -1,0 +1,47 @@
+plugins {
+    id "com.gorylenko.gradle-git-properties" version "1.4.6"
+}
+
+springBoot {
+    mainClass = 'sagan.SiteApplication'
+    requiresUnpack = ['org.jruby:jruby-complete', 'org.asciidoctor:asciidoctorj']
+}
+
+dependencies {
+    compile project(':sagan-common')
+    compile project(':sagan-client')
+
+    compile "org.springframework.boot:spring-boot-starter-web"
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+    compile "org.springframework.boot:spring-boot-starter-redis"
+    compile "org.springframework.boot:spring-boot-starter-security"
+    compile "org.springframework.boot:spring-boot-devtools"
+    compile "org.springframework.security:spring-security-acl"
+
+
+    // Thymeleaf is used as the template engine for serving HTML
+    compile "org.springframework.boot:spring-boot-starter-thymeleaf"
+    compile 'com.github.mxab.thymeleaf.extras:thymeleaf-extras-data-attribute'
+    compile 'org.thymeleaf.extras:thymeleaf-extras-springsecurity4'
+
+    // nekohtml is required for thymeleaf's LEGACYHTML5 mode
+    runtime 'net.sourceforge.nekohtml:nekohtml'
+
+    // for use in generating blog atom feeds
+    compile 'com.rometools:rome'
+
+    // for use in serving redirects; see urlrewrite.xml
+    compile 'org.tuckey:urlrewritefilter:4.0.4'
+    // override Boot dependency management, since urlrewritefilter uses a more recent version
+    compile 'xml-apis:xml-apis:1.4.01'
+
+    // for XML manipulation
+   compile 'org.xmlbeam:xmlprojector:1.4.8'
+
+    // for use in mocking http interactions
+    testCompile "org.springframework:spring-test"
+
+    // pick up common test utility classes
+    testCompile project(':sagan-common').sourceSets.testUtil.output
+
+}

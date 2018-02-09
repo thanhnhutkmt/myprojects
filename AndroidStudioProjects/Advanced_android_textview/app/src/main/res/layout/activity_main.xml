@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nhut.software.advanced_android_textview.MainActivity">
+
+    <TextView
+        android:id="@+id/animated_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animation"
+        android:drawableLeft="@drawable/rotating_loading"
+        android:drawableRight="@drawable/animated_wifi"/>
+        <!--android:drawableBottom="@drawable/animated_clock"-->
+        <!--/>-->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Shadow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:shadowColor="#7000"
+            android:shadowDx="12"
+            android:shadowDy="12"
+            android:shadowRadius="8"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Blocky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:shadowColor="@android:color/holo_green_dark"
+            android:shadowDx="4"
+            android:shadowDy="-4"
+            android:shadowRadius="1"
+            android:fontFamily="sans-serif"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="glow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:background="@android:color/black"
+            android:shadowColor="@android:color/holo_red_light"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="24"
+            android:fontFamily="sans-serif"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/customfont"
+            android:text="custom font"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/gradientText"
+            android:text="Gradient"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/cheetahText"
+            android:text="cheetah"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/htmlText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/multicolorText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fractiontext" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Read Comics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="2dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="@drawable/colorline1"
+        android:textColor="#ffffff"
+        android:shadowColor="#f11f81"
+        android:shadowDx="0"
+        android:shadowDy="-10"
+        android:shadowRadius="24"
+        android:fontFamily="sans-serif"
+        android:layout_weight="1" />
+
+</LinearLayout>

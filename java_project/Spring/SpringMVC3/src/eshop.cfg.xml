@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+	<property name="hibernate.connection.url">jdbc:sqlserver://localhost;Database=EShopV10;</property>
+	<property name="hibernate.connection.username">nhut</property>
+	<property name="connection.password">nhut</property>
+	<property name="connection.pool_size">10</property>
+	<property name="show_sql">false</property>
+	<property name="hbm2ddl.auto">none</property>
+	<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+
+	<!-- Mapping files -->
+    <mapping class="eshop.entity.OrderDetail"/>
+    <mapping class="eshop.entity.Category"/>
+    <mapping class="eshop.entity.Product"/>
+    <mapping class="eshop.entity.Order"/>
+    <mapping class="eshop.entity.Customer"/>
+    <mapping class="nhatnghe.bean.SinhVien"/>
+    <mapping class="nhatnghe.bean.Clazz"/>
+</session-factory>
+</hibernate-configuration>

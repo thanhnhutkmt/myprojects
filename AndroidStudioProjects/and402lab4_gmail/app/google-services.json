@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "679740125429",
+    "project_id": "and402lab4-gmail"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679740125429:android:aca9ca7dc8967926",
+        "android_client_info": {
+          "package_name": "and402lab4.nhut.and402.lab.and402lab4_gmail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679740125429-hnqn3q6ioiibed86418m96jn2v60uois.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "679740125429-t0bur7m5r80u6jsq3pr844ke3sm3eem9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "and402lab4.nhut.and402.lab.and402lab4_gmail",
+            "certificate_hash": "6ebbdaabd0101c3f9b31a32279eacaa60924e8d9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9CAPN3m9-xUXDGMJIP8Llp-R6beBrgBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

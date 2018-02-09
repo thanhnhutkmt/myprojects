@@ -1,0 +1,11 @@
+*.gem
+.bundle
+Gemfile.lock
+pkg/*
+spec/support/full_control_gs.yml
+spec/lib/google_storage/coverage*
+.idea
+.yardoc
+.yardoc/*
+coverage/*
+.rbx/*

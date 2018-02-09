@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nhut.software.advanced_android_textview.Main2Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/spanstringbuilder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:id="@+id/textView"
+        android:height="200dp"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout_width="match_parent"
+        layout_height="match_parent">
+
+        <Button
+            android:text="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnL"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnR"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="1"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clickableText"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:text="Click here to go to setting, then setting will be open" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+|max2_test1
+ina => out.IN0
+inb => out.IN1
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

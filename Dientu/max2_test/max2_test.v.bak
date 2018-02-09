@@ -1,0 +1,21 @@
+
+module first_counter (
+ in1 , // Clock input of the design
+ in2 , // active high, synchronous Reset input
+ out , // Active high enable signal for counter
+); // End of port list
+
+input in1;
+input in2;
+wire in1;
+wire in2;
+
+output out;
+reg out ;
+
+always @ (posedge clock)
+begin
+	out = in1 & in2;
+end
+
+endmodule

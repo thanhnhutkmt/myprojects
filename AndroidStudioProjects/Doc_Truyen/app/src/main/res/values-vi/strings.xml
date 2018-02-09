@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đọc truyện</string>
+    <string name="copyright">B1.95 Bản quyền © 2017 Kỹ sư Lưu Thành Nhựt Giữ mọi quyền</string>
+
+    <string name="readcomic">Đọc Truyện</string>
+    <string name="select_server">Máy chủ</string>
+    <string name="select_comic">Chon truyen</string>
+    <string name="purchase_comic">Mua sam</string>
+    <string name="saved_comic">Truyen đa luu</string>
+    <string name="exit">Thoát</string>
+
+    <string name="title_activity_read_comic">ReadComicActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="downloadbtn">Tải</string>
+    <string name="cancelbtn">Hủy</string>
+    <string name="removebtn">Xóa</string>
+    <string name="readbtn">Đọc</string>
+    <string name="danhsachtruyen">Danh sách truyện</string>
+    <string name="comicvn_waitdownload_message">Xin chờ ...</string>
+    <string name="comicvn_waitdownload_title">Đang tải</string>
+    <string name="networkslowerrormsg">Mạng chậm quá</string>
+    <string name="networkerror">Mạng hoặc máy chủ bị lỗi</string>
+    <string name="new_story">Truyện mới</string>
+    <string name="ngungdoctruyen">Bạn muốn thoát</string>
+    <string name="Dangtaitrangtruyen">Đang tải</string>
+    <string name="downloadfinish">Xong</string>
+    <string name="mnuTaihet">Tải tất cả</string>
+    <string name="mnuDunghet">Dùng tất cả</string>
+    <string name="mnuXoahet">Xóa truyện</string>
+    <string name="menu_searchview_title">Tìm</string>
+    <string name="continueDownloadwarning">Tải file vẫn tiếp tục</string>
+    <string name="mnuTaiThumbnail">Tải ảnh đại diện</string>
+    <string name="redownloadbtn">Tải lại</string>
+    <string name="warning_overloadcpu">Điện thoại của bạn không đủ mạnh</string>
+    <string name="btn_read_offline">Mở</string>
+    <string name="loadTruyenInfoError">Tải thông tin bị lỗi, dữ liệu bị lỗi.</string>
+    <string name="font">VNI-Baybuom.ttf</string>
+    <string name="lang_en">English</string>
+    <string name="lang_vi">Việt Nam</string>
+    <string name="xoatruyen">Đang xóa</string>
+    <string name="downloaderror">(Máy chủ bị lỗi)</string>
+    <string name="TimTruyen">Tìm truyện</string>
+    <string name="searchbtn">Tìm</string>
+    <string name="server1">Máy chủ 1 cộng đồng truyện tranh Việt</string>
+    <string name="server2">Tìm trong Máy chủ 1</string>
+    <string name="server3">Máy chủ 2 Ham Truyện</string>
+    <string name="server3_1">Máy chủ 2 Ham Truyện Manga</string>
+    <string name="server3_2">Máy chủ 2 Ham Truyện Manwa</string>
+    <string name="server3_3">Máy chủ 2 Ham Truyện Manhua</string>
+    <string name="server4">Máy chủ 3 Thích Truyện Tranh</string>
+    <string name="server4_1">Tìm trong Máy chủ 3 Thích Truyện Tranh</string>
+    <string name="server5">Máy chủ 4 A3Manga</string>
+    <string name="link1">http://comicvn.net/truyen-moi</string>
+    <string name="link2">http://comicvn.net/tim-truyen-online/</string>
+    <string name="link3">http://hamtruyen.vn</string>
+    <string name="link3_1">http://hamtruyen.vn/Theloai/549f819f1788b6107431bd05/manga.html</string>
+    <string name="link3_2">http://hamtruyen.vn/Theloai/549f819f1788b6107431bd06/manhwa.html</string>
+    <string name="link3_3">http://hamtruyen.vn/Theloai/549f819f1788b6107431bd04/manhua.html</string>
+    <string name="link4">http://thichtruyentranh.com</string>
+    <string name="link4_1">http://thichtruyentranh.com/truyen-tranh.html?q=</string>
+    <string name="link5">https://www.a3manga.com/</string>
+    <string name="next">Next</string>
+    <string name="toastReversedirection">Đảo chiều</string>
+    <string name="erroropenchapter">Máy chủ không trả dữ liệu đúng</string>
+
+    <string name="productdialog_title">Sản phẩm đang có</string>
+</resources>

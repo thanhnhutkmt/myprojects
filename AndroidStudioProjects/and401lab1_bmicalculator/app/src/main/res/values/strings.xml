@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">and401lab1_bmicalculator</string>
+    <string name="bmi_calculator">BMI calculator</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="compute">Compute</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnufirebase" android:title="@string/OptionMenu_firebase" >
+        <menu>
+            <item android:id="@+id/mnufirebase_login" android:title="@string/OptionMenu_firebase_login" />
+            <item android:id="@+id/mnufirebase_logout" android:title="@string/OptionMenu_firebase_logout" />
+            <item android:id="@+id/mnufirebase_register" android:title="@string/OptionMenu_firebase_register" />
+            <item android:id="@+id/mnufirebase_changeaccount" android:title="@string/OptionMenu_firebase_changeaccount" />
+            <item android:id="@+id/mnufirebase_changePassword" android:title="@string/OptionMenu_firebase_changePassword" />
+        </menu>
+    </item>
+    <item android:id="@+id/mnufacebook" android:title="@string/OptionMenu_facebook" >
+        <menu>
+            <item android:id="@+id/mnufacebook_logout" android:title="@string/OptionMenu_facebook_logout" />
+        </menu>
+    </item>
+    <!--<item android:id="@+id/mnuTwitter" android:title="@string/OptionMenu_twitter" >-->
+        <!--<menu>-->
+            <!--<item android:id="@+id/mnutwitter_logout" android:title="@string/OptionMenu_twitter_logout" />-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>

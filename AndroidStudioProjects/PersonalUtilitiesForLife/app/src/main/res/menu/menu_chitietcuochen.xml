@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnuXoa_chitietcuochen" android:title="@string/mnuXoa"></item>
+    <item android:id="@+id/mnuTatMo_chitietcuochen" android:title="@string/mnuTatMo"></item>
+    <item android:id="@+id/mnupostFB_chitietcuochen" android:title="@string/mnuPostFB"></item>
+    <item android:id="@+id/mnutweetTwitter_chitietcuochen" android:title="@string/mnutweetTwitter"></item>
+</menu>

@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri Apr 28 12:06:21 2017
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : max2_led
+Top-level Entity Name : max2_led
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 48 / 240 ( 20 % )
+Total pins : 4 / 80 ( 5 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

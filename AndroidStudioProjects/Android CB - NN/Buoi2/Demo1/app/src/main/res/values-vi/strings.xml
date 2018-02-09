@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo1</string>
+    <string name="text1">nhap so thu 1:</string>
+    <string name="text2">nhap so thu 2:</string>
+    <string name="bt1">Tong</string>
+    <string name="kq">ket qua : </string>
+</resources>

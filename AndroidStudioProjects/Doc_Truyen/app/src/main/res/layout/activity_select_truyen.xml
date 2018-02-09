@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_select_truyen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyBackground2"
+    tools:context="comicreader.software.nhut.doc_truyen.Select_truyen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_selecttruyen"
+        android:layout_alignParentTop="true"
+        android:text="@string/new_story"
+        style="@style/MyTitle"
+        />
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/rv_listTruyen"-->
+        <!--android:layout_below="@+id/title_selecttruyen"-->
+        <!--android:layout_above="@+id/adView_selectruyen"-->
+        <!--android:layout_marginBottom="@dimen/Smartbanner_size"-->
+        <!--/>-->
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView_selectruyen"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--ads:adSize="SMART_BANNER"-->
+        <!--ads:adUnitId="ca-app-pub-4724020476164030/8961308306"-->
+        <!--/>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_listTruyen"
+        android:layout_below="@+id/title_selecttruyen"
+        android:layout_above="@+id/adView_selectruyen"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_selectruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-4724020476164030/8961308306"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

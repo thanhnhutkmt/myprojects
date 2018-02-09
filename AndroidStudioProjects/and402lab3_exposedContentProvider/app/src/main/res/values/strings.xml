@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">and402lab3_exposedContentProvider</string>
+    <string name="readSDP">This permission is required to read data of secured content provider</string>
+</resources>

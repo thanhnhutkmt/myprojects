@@ -1,0 +1,11 @@
+module max2_test1(ina, inb, out);
+
+input ina, inb;
+wire ina, inb;
+
+output out;
+reg out = ina & inb;
+
+
+
+endmodule 

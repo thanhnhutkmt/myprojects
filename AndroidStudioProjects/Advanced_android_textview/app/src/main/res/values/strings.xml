@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Advanced_android_textview</string>
+    <string name="animation">animation</string>
+    <string name="from_html_text">
+        <![CDATA[
+            <h1>Hello World</h1>
+    Here is an
+    <img src="octopus">
+    <i>octopus</i>, <br>
+    And here is a
+    <a href="http://d.android.com">link</a>.
+    ]]>
+    </string>
+    <string name="multicolorText">Text View</string>
+    <string name="fractiontext"><![CDATA[1<afrc>1/2</afrc> + <afrc>11/16</afrc> = 2<afrc>3/16</afrc>]]></string>
+    <string name="fractiontext1"><![CDATA[<afrc>22/7</afrc> <afrc>355/113</afrc> <afrc>103993/33102</afrc>]]></string>
+
+    <string name="version">Version 1.0</string>
+    <string name="author">Author : Engineer Nhut Thanh Luu</string>
+    <string name="copyright">All rights reserved 2016</string>
+    <string name="animated">To make an animated rainbow span, translate the Shader with a Matrix, and change the translation value with an ObjectAnimator.</string>
+    <string name="clickabletext">Click here to go to setting, then setting will be open</string>
+    <string name="gtsetting">go to setting</string>
+
+</resources>

@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/includes/mainheader.jsp=UTF-8
+encoding//WebContent/css/style.css=UTF-8
+encoding//WebContent/index.jsp=UTF-8
+encoding//src/thunder/controller/ClassController.java=UTF-8
+encoding//src/thunder/controller/CourseController.java=UTF-8
+encoding//src/thunder/controller/ExamController.java=UTF-8
+encoding//src/thunder/controller/LearnerController.java=UTF-8
+encoding//src/thunder/controller/RegistryController.java=UTF-8
+encoding//src/thunder/controller/UserController.java=UTF-8
+encoding//src/thunder/entity/Examination.java=UTF-8
+encoding//src/thunder/entity/Learners.java=UTF-8
+encoding//src/thunder/entity/Registries.java=UTF-8
+encoding/<project>=UTF-8

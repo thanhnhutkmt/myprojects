@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">and401lab6_tranzition_multiscreen_locale</string>
+    <string name="add_item">Add Item</string>
+    <string name="transition_name">transition list to detail</string>
+</resources>

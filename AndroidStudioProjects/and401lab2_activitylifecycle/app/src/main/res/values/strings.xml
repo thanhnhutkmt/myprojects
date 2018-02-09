@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">and401lab2_activitylifecycle</string>
+    <string name="androidatc_lesson_2">AndroidATC lesson 2</string>
+    <string name="activity_lifecycle">Activity lifecycle</string>
+</resources>

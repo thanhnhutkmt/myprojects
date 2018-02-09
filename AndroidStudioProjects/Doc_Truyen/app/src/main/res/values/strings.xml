@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Read comics</string>
+    <string name="copyright">V1.95 Copyright © 2017 Engineer Luu Thanh Nhut All Rights Reserved</string>
+
+    <string name="readcomic">READ COMICS</string>
+    <string name="select_server">Select server</string>
+    <string name="select_comic">Select comic</string>
+    <string name="purchase_comic">Purchase</string>
+    <string name="saved_comic">Saved comic</string>
+    <string name="exit">Exit</string>
+
+    <string name="title_activity_read_comic">ReadComicActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="downloadbtn">Download</string>
+    <string name="cancelbtn">Cancel</string>
+    <string name="removebtn">Remove</string>
+    <string name="readbtn">Read</string>
+    <string name="danhsachtruyen">List comics</string>
+    <string name="comicvn_waitdownload_message">Please wait ...</string>
+    <string name="comicvn_waitdownload_title">Downloading</string>
+    <string name="networkslowerrormsg">Network is too slow</string>
+    <string name="networkerror">Network or Server error</string>
+    <string name="new_story">New Story</string>
+    <string name="ngungdoctruyen">Are you sure to exit ?</string>
+    <string name="Dangtaitrangtruyen">Downloading</string>
+    <string name="downloadfinish">done</string>
+    <string name="mnuTaihet">Download all</string>
+    <string name="mnuDunghet">Stop all</string>
+    <string name="mnuXoahet">Remove Comic</string>
+    <string name="menu_searchview_title">Search</string>
+    <string name="continueDownloadwarning">Your download still continue</string>
+    <string name="mnuTaiThumbnail">Load thumbnail</string>
+    <string name="redownloadbtn">Reload</string>
+    <string name="warning_overloadcpu">Your phone is not strong enough to serve you</string>
+    <string name="btn_read_offline">Open</string>
+    <string name="loadTruyenInfoError">Load Info error, may be data corrupted</string>
+    <string name="font">Ruthie.ttf</string>
+    <string name="lang_en">English</string>
+    <string name="lang_vi">Việt Nam</string>
+    <string name="xoatruyen">Removing</string>
+    <string name="downloaderror">(server error)</string>
+    <string name="TimTruyen">Search comics</string>
+    <string name="searchbtn">Search</string>
+    <string name="server1">Server1 Viet Comics community</string>
+    <string name="server2">Find on server 1</string>
+    <string name="server3">Server2 crazy fan of Comic</string>
+    <string name="server3_1">Server2 crazy fan of Comic Manga</string>
+    <string name="server3_2">Server2 crazy fan of Comic Manwa</string>
+    <string name="server3_3">Server2 crazy fan of Comic Manhua</string>
+    <string name="server4">Server3 enjoy Comics</string>
+    <string name="server4_1">Find on server3 enjoy Comics</string>
+    <string name="server5">Server4 A3Manga</string>
+    <string name="link1">http://comicvn.net/truyen-moi</string>
+    <string name="link2">http://comicvn.net/tim-truyen-online/</string>
+    <string name="link3">http://hamtruyen.vn</string>
+    <string name="link3_1">http://hamtruyen.vn/Theloai/549f819f1788b6107431bd05/manga.html</string>
+    <string name="link3_2">http://hamtruyen.vn/Theloai/549f819f1788b6107431bd06/manhwa.html</string>
+    <string name="link3_3">http://hamtruyen.vn/Theloai/549f819f1788b6107431bd04/manhua.html</string>
+    <string name="link4">http://thichtruyentranh.com</string>
+    <string name="link4_1">http://thichtruyentranh.com/truyen-tranh.html?q=</string>
+    <string name="link5">https://www.a3manga.com/</string>
+    <string name="next">Next</string>
+    <string name="toastReversedirection">Reversed direction</string>
+    <string name="erroropenchapter">Server does not return data properly</string>
+
+    <string name="productdialog_title">Available product</string>
+</resources>
+

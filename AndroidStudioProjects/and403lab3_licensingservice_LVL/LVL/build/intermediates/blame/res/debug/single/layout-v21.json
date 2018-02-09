@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\project\\AndroidStudioProjects\\and403lab3_licensingservice_LVL\\LVL\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\project\\AndroidStudioProjects\\and403lab3_licensingservice_LVL\\LVL\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\project\\AndroidStudioProjects\\and403lab3_licensingservice_LVL\\LVL\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\project\\AndroidStudioProjects\\and403lab3_licensingservice_LVL\\LVL\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\project\\AndroidStudioProjects\\and403lab3_licensingservice_LVL\\LVL\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\project\\AndroidStudioProjects\\and403lab3_licensingservice_LVL\\LVL\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\project\\AndroidStudioProjects\\and403lab3_licensingservice_LVL\\LVL\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\project\\AndroidStudioProjects\\and403lab3_licensingservice_LVL\\LVL\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

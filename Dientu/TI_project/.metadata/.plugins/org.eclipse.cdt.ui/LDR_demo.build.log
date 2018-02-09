@@ -1,0 +1,14 @@
+
+**** Clean-only build of configuration Debug for project LDR_demo ****
+
+"D:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "LDR_demo.out"  "LDR_demo.hex" 
+DEL /F "LDR_demo.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+DEL /F "LDR_demo.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+Could Not Find D:\project\Dientu\TI_project\LDR_demo\Debug\LDR_demo.out
+Could Not Find D:\project\Dientu\TI_project\LDR_demo\Debug\LDR_demo.d
+Could Not Find D:\project\Dientu\TI_project\LDR_demo\Debug\LDR_demo.obj
+'Finished clean'
+' '
+
+**** Build Finished ****

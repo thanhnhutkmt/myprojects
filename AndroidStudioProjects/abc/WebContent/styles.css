@@ -1,0 +1,10 @@
+	img{
+		width:100px;
+		height:100px;
+	}
+	img[src$='.gif']{
+		border :1px solid red;
+	}
+/* 	img[src$='.png']{ */
+/* 		border :2px solid blue; */
+/* 	} */

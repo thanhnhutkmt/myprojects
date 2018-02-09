@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="MyTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#77fffaa4</item>
+        <item name="android:shadowDx">12</item>
+        <item name="android:shadowDy">12</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="MyTextView3">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:shadowColor">#000011</item>
+        <item name="android:shadowDx">12</item>
+        <item name="android:shadowDy">12</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="MyTextView4">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">12</item>
+        <item name="android:shadowRadius">20</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">#00000000</item>
+    </style>
+    <style name="MyButton">
+        <item name="android:background">@drawable/buttondrawable</item>
+        <item name="android:textColor">@color/silver</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="myapptheme" parent="Theme.AppCompat.DayNight">
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
+

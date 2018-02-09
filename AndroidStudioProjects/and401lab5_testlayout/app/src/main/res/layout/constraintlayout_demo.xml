@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ConstraintLayout="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="65dp"
+        android:text="This is the first textview1"
+        android:id="@+id/tv1"
+        android:layout_marginEnd="16dp"
+        ConstraintLayout:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        ConstraintLayout:layout_constraintTop_toBottomOf="@+id/tv4"
+        android:layout_marginRight="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the first textview2"
+        android:id="@+id/tv2"
+        ConstraintLayout:layout_constraintRight_toRightOf="@+id/tv3"
+        ConstraintLayout:layout_constraintLeft_toLeftOf="@+id/tv3"
+        ConstraintLayout:layout_constraintBottom_toTopOf="@+id/guideline5"
+        android:layout_marginBottom="8dp" />
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="108dp"
+        android:text="This is the first textview3\nThis is the first textview3"
+        android:id="@+id/tv3"
+        android:layout_below="@+id/tv1"
+        ConstraintLayout:layout_constraintLeft_toTopOf="@id/tv2"
+        ConstraintLayout:layout_constraintRight_toLeftOf="@+id/tv1"
+        ConstraintLayout:layout_constraintTop_toTopOf="@+id/guideline4"
+        android:layout_marginTop="64dp"
+        ConstraintLayout:layout_constraintBottom_toTopOf="@+id/tv2"
+        android:layout_marginBottom="8dp"
+        ConstraintLayout:layout_constraintLeft_toLeftOf="@+id/guideline3"
+        ConstraintLayout:layout_constraintHorizontal_bias="0.21"
+        ConstraintLayout:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="17dp"
+        android:text="This is the first textview4"
+        android:id="@+id/tv4"
+        ConstraintLayout:layout_constraintStart_toEndOf="@id/tv3"
+        tools:layout_editor_absoluteY="147dp"
+        tools:layout_editor_absoluteX="158dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        ConstraintLayout:layout_constraintGuide_begin="20dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        ConstraintLayout:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="0dp"
+        android:layout_height="511dp"
+        android:id="@+id/guideline3"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="20dp"
+        ConstraintLayout:layout_constraintGuide_end="364dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline4"
+        ConstraintLayout:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline5"
+        ConstraintLayout:layout_constraintGuide_begin="397dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="397dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline6"
+        ConstraintLayout:layout_constraintGuide_begin="20dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="20dp" />
+
+</android.support.constraint.ConstraintLayout>

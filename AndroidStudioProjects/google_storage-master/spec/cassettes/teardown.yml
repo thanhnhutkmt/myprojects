@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://gs-test-9dcc3fd00a360130fe4b005b2013754b.storage.googleapis.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - gs-test-9dcc3fd00a360130fe4b005b2013754b.storage.googleapis.com
+      Date:
+      - Tue, 06 Nov 2012 11:54:18 GMT
+      Content-Type:
+      - binary/octet-stream
+      Content-Length:
+      - '0'
+      X-Goog-Api-Version:
+      - 2
+      Authorization:
+      - ____SILENCED_access_token____
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - HTTP Upload Server Built on Oct 3 2012 16:52:30 (1349308350)
+      Vary:
+      - Origin
+      Content-Type:
+      - application/xml; charset=UTF-8
+      Content-Length:
+      - '133'
+      Date:
+      - Tue, 06 Nov 2012 11:54:19 GMT
+      Expires:
+      - Tue, 06 Nov 2012 11:54:19 GMT
+      Cache-Control:
+      - private, max-age=0
+    body:
+      encoding: US-ASCII
+      string: <?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchBucket</Code><Message>The
+        specified bucket does not exist.</Message></Error>
+    http_version: !!null 
+  recorded_at: Tue, 06 Nov 2012 11:54:20 GMT
+recorded_with: VCR 2.3.0

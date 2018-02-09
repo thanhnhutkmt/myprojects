@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_noi_dung__truyen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyBackground2"
+    tools:context="comicreader.software.nhut.doc_truyen.NoiDung_Truyen">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/actionbar_colorline"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:id="@+id/actionbar_actnoidung"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/title_noidungtruyen"
+        android:layout_below="@+id/actionbar_actnoidung"
+        style="@style/MyTitle"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_listNoiDungTruyen"
+        android:layout_below="@+id/title_noidungtruyen"
+        android:layout_above="@+id/adView_noidungtruyen"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_noidungtruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-4724020476164030/7484575103"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

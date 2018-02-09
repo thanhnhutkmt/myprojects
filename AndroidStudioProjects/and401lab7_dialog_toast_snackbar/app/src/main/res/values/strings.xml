@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">and401lab7_dialog_toast_snackbar</string>
+    <string name="dialog1">Dialog1</string>
+    <string name="dialog2">Dialog2</string>
+    <string name="alertdialog">alertdialog</string>
+    <string name="progressdialog1">progressdialog1</string>
+    <string name="progressdialog2">progressdialog2</string>
+    <string name="toast3">Toast3</string>
+    <string name="toast2">Toast2</string>
+    <string name="toast1">Toast1</string>
+    <string name="snackbar1">snackbar1</string>
+    <string name="snackbar2">snackbar2</string>
+    <string name="TimeDatePicker">Time picker Date picker</string>
+    <string name="alertdialog1">alertdialog1</string>
+    <string name="alertdialog2">alertdialog2</string>
+    <string name="dialog3">DIALOG3</string>
+</resources>

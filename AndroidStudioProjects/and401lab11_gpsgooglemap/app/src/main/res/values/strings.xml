@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">and401lab11_gpsgooglemap</string>
+    <string name="start_capturing_geocoordinates">Start capturing geocoordinates</string>
+    <string name="google_maps_key">AIzaSyBvL6Cd0r7yM9yddJEorODHPHe1CD_FfqI</string>
+</resources>

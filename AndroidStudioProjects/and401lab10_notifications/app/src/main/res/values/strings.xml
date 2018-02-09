@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">and401lab10_notifications</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="max_priority">Max priority</string>
+    <string name="android_notification">Android notification</string>
+    <string name="high_priority">high priority</string>
+    <string name="low_priority">low priority</string>
+    <string name="old_notification">old notification</string>
+    <string name="default_priority">default priority</string>
+    <string name="big_picture">big picture</string>
+    <string name="big_text">Big text</string>
+    <string name="inbox_type">inbox type</string>
+    <string name="min_priority">min priority</string>
+    <string name="summary_text"></string>
+</resources>

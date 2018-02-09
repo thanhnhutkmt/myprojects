@@ -1,0 +1,4 @@
+<resources xmlns:g="http://schemas.android.com/tools">
+    <string name="app_name">Sign_In_With_Google_Demo</string>
+    <string name="state">Email : <g:xliff id="mail">%s</g:xliff>\nName : <g:xliff id="name">%s</g:xliff></string>
+</resources>

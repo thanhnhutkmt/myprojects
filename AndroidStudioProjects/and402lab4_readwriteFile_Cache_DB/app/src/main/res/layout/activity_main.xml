@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="and402lab4.nhut.and402.lab.and402lab4_readwritefile_cache_db.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="File name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/filenametv"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="File name"
+            android:ems="10"
+            android:id="@+id/filenameet"
+            android:layout_weight="0.3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:text="File content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/filecontenttv" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:maxLines="5"
+            android:hint="File content"
+            android:id="@+id/filecontentet" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/select"
+        android:layout_gravity="center"
+        android:saveEnabled="true">
+
+        <RadioButton
+            android:text="Internal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Internal"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="External"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/External"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Cache"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Database"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Database"
+            android:layout_weight="1" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+    <Button
+        android:text="Read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Readbtn"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:text="Write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/Writebtn"
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">and401lab5_CustomViewInDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="this_is_main_view_use_the_drawer_menu">This is main view - use the Drawer menu</string>
+    <string name="a_placeholder_for_more_views">A placeholder for more views</string>
+</resources>

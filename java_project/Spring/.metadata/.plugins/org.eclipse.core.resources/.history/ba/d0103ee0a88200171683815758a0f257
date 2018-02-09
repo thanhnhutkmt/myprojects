@@ -1,0 +1,69 @@
+<%@ page pageEncoding="utf-8" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<!DOCTYPE html>
+<html>
+<head>
+<base src="/TrainingCenter/" />
+<meta charset="utf-8">
+<title>Classses management</title>
+</head>
+<body>
+	<h1>CLASSES</h1>
+	<h2>${message}</h2>
+	<form:form action="classes.php" modelAttribute="class">
+		<div>
+			<div>Class id</div>
+			<form:input path="classid" />
+		</div>
+		<div>
+			<div>Course id</div>
+			<form:input path="courseid" />
+		</div>
+		<div>
+			<div>Starting day</div>			
+			<form:input path="displayValue" value="${class.displayValue}" />		 			
+		</div>
+		<div>
+			<div>Time table</div>
+			<form:input path="timeTable" />
+		</div>
+		<div>
+			<div>Room</div>
+			<form:input path="room"/>
+		</div>
+		<div>		
+			<button formaction="insertclasses.php">Insert</button>
+			<button formaction="updateclasses.php">Update</button>
+			<button formaction="deleteclasses.php">Delete</button>
+			<button formaction="classes.php">Refresh</button>
+		</div>
+	</form:form>
+	
+	<table border="1" style="width:100%"> 
+		<tr>
+			<th>Class id</th>
+			<th>Course id</th>
+			<th>Starting day</th>
+			<th>Time table</th>
+			<th>Room</th>
+		</tr>
+		<c:forEach var="li" items="${listclass}">
+			<tr>
+				<td>${li.classid}</td>
+				<td>${li.courseid}</td>
+				<c:set var="cd1" value="${li.createdDate}" />  
+				<%pageContext.setAttribute("d1", new java.util.Date((long)pageContext.getAttribute("cd1")));%>			
+				<fmt:formatDate var="cds1" value="${d1}" pattern="HH:mm EEE MMM dd yyyy" />				
+				<td>${li.timeTable}</td>											
+				<td>${li.room}</td>
+				
+				<td>
+					<a href="edit.php?id=${li.courseid}">Edit</a>
+				</td>
+			</tr>
+		</c:forEach>
+	</table>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnureload" android:title="@string/OptionMenu_reload_album" ></item>
+    <item android:id="@+id/mnualbuminfo" android:title="@string/OptionMenu_info_album" ></item>
+    <item android:id="@+id/mnusort" android:title="@string/OptionMenu_sort_album" >
+        <menu>
+            <item android:id="@+id/mnualbum_size" android:title="@string/OptionMenu_sort_size_album" />
+            <item android:id="@+id/mnualbum_date" android:title="@string/OptionMenu_sort_date_album" />
+            <item android:id="@+id/mnualbum_name" android:title="@string/OptionMenu_sort_name_album" />
+        </menu>
+    </item>
+    <item android:id="@+id/mnucompress_backup" android:title="@string/OptionMenu_compress_backup" ></item>
+    <item android:id="@+id/mnuopenfolder" android:title="@string/OptionMenu_openfolder" ></item>
+    <item android:id="@+id/mnucreate_album" android:title="@string/OptionMenu_create_album" ></item>
+    <item android:id="@+id/mnurestore_album" android:title="@string/OptionMenu_restore_album" ></item>
+</menu>
